@@ -4,6 +4,7 @@ import Contacts from './Components/Contacts/Contacts';
 import UserCV from './Components/UserCV/UserCV';
 import PersonalInfo from './Components/PersonalInfo/PersonalInfo';
 import Experience from './Components/Experience/Experience';
+import Profile from './Components/Profile/Profile';
 function App() {
   return (
     <>
@@ -12,6 +13,9 @@ function App() {
       <UserCV/>
       <PersonalInfo/>
       <Experience/>
+      <PersonalInfo/>
+***************************************
+      <Profile/>
     </>
   );
 }
